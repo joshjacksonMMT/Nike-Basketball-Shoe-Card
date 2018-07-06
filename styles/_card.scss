@@ -1,0 +1,19 @@
+
+
+@import 'card-media';
+@import 'card-info';
+
+.card
+{
+  width: 1200px;
+  height: 800px;
+
+  background: $cardBackgroundColour;
+
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 2.5px 5px 0px, rgba(0, 0, 0, 0.23) -2px 1px 6px 0px;
+
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: $cardColumnGap;
+}

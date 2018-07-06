@@ -1,0 +1,30 @@
+
+.size-guide
+{
+  h2
+  {
+    font-size: $subHeadingFontSize;
+  }
+}
+
+.size-guide-table
+{
+  width: 100%;
+
+  border-collapse: collapse;
+
+  td
+  {
+    border: 1px solid $sizeGuideBorderColour;
+    text-align: center;
+    padding: 20px;
+    color: $lightTextColour;
+  }
+
+  .disabled
+  {
+    background: $sizeGuideDisabledColour;
+    color: $disabledTextColour;
+  }
+
+}

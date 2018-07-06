@@ -1,0 +1,36 @@
+.card-info-header
+{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  letter-spacing: 0.5px;
+}
+
+.shoe-name
+{
+  font-size: $headingFontSize;
+
+  margin: 0;
+}
+
+.shoe-type
+{
+  font-size: $subHeadingFontSize;
+
+  margin: 0;
+}
+
+.reviews
+{
+  font-size: $normalTextFontSize;
+}
+
+.card-info-header-price
+{
+  color: $priceTextColour;
+  font-size: $headingFontSize;
+
+  padding-bottom: $priceOffsetBottom;
+  padding-left: $priceOffsetLeft;
+
+  align-self: center;
+}

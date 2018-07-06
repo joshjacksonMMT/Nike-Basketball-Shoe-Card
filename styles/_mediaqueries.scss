@@ -1,0 +1,86 @@
+
+// ! THIS IS BAD, MY MAIN GOAL WASN'T RESPONSIVENESS.
+
+
+@media (max-width: 1220px)
+{
+  .card
+  {
+    width: 1100px;
+  }
+}
+
+@media (max-width: 1110px)
+{
+  .card
+  {
+    width: 1000px;
+    
+  }
+}
+
+@media (max-width: 1005px)
+{
+  .card
+  {
+    width: 930px;
+  }
+}
+
+@media (max-width: 935px)
+{
+  .card
+  {
+    grid-template-columns: 1fr;
+    width: 800px;
+  }
+  .card-info
+  {
+    padding-left: 40px;
+  }
+  .card-media
+  {
+    display: none;
+  }
+}
+
+@media (max-width: 815px)
+{
+  .card
+  {
+    width: 700px;
+  }
+}
+
+@media (max-width: 710px)
+{
+  .card
+  {
+    width: 600px;
+  }
+}
+
+@media (max-width: 610px)
+{
+  .card
+  {
+    width: 500px;
+    height: 700px;
+  }
+}
+
+@media (max-width: 510px)
+{
+  .card
+  {
+    width: 430px;
+  }
+
+  .size-guide-table
+  {
+    td
+    {
+      padding: 10px;
+    }
+  }
+}
